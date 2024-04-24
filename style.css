@@ -1,0 +1,76 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+
+h3 {
+    margin-left: 10px;
+}
+
+p{
+    font-family: 'Roboto';
+    color: #808080;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.change-plan {
+    font-weight: 700;
+    color: rgb(50, 50, 205);
+}
+
+.button {
+    background-color: hsl(245,  75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 15px 125px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 20px 5px hsl(225, 100%, 98%);
+    font-weight: 700;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
